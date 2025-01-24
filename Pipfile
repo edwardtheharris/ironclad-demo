@@ -6,10 +6,7 @@ name = "pypi"
 [packages]
 loguru = "*"
 pipenv = "*"
-flask = "*"
 django = "*"
-sqlalchemy = "*"
-psycopg2 = "*"
 
 [dev-packages]
 black = "*"
