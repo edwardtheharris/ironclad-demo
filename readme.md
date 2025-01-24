@@ -7,9 +7,15 @@
    2. Email Address [ Should be able to detect wrong format on email address]
    3. Phone Number [ Valid USA number format ]
    4. Date of Birth. [ Date should be of the format MM/DD/YYYY only ]
-2. Above Inputs should be persisted in a database ( MySQL / Postgres ) and should support CRUD Operations ○ Reading back the contents from the database, it’s ok to return all the records in a text area / table on the application.
-   1. For Updating / Deleting the data , you can select the data from the same text area / table where you return all the content.
-3. Application & backends should be containerized , exposed as a service and deployed on a K8s / Docker Compose/ Nomad Cluster.
+2. Above Inputs should be persisted in a database ( MySQL / Postgres ) and
+   should support CRUD Operations ○ Reading back the contents from the database,
+   it’s ok to return all the records in a text area / table on the application.
+
+   1. For Updating / Deleting the data , you can select the data from the same
+      text area / table where you return all the content.
+
+3. Application & backends should be containerized , exposed as a service and
+   deployed on a K8s / Docker Compose/ Nomad Cluster.
 
 ## References
 
